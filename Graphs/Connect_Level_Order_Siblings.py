@@ -1,6 +1,7 @@
 from __future__ import print_function
 from collections import deque
-
+#O(n) time where n is number of nodes in tree
+#O(n) space where we will have at most n/2 nodes stored in our queue at one point in time (last layer of tree)
 
 class TreeNode:
   def __init__(self, val):
